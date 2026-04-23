@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DarkWing Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;600&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="Styles.css">
+  <!-- linking javascript file -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="banner-wm"></div>
+      <div class="banner-line"></div>
+    </div>
+
+    <!-- IDENTITY & SOCIALS -->
+    <div class="identity-section">
+      <div class="pfp-wrap">
+        <div class="pfp-ring"></div>
+        <div class="pfp-inner">
+          <img src="https://i.supaimg.com/12a5197b-3ba1-451e-9815-9891175688ac.png" alt="DarkWing Studio"> 
+        </div>
+      </div>
+
+      <div class="name-block">
+        <div class="handle">DarkWing Studio</div>
+        <div class="tag">// CREATIVE DIRECTOR. BUILDER. OPERATOR.</div>
+        <p class="bio">
+          <strong>Creative director. Builder. Operator.</strong><br>
+          AI art, 3D, and full-stack products — all under one dark wing.
+          Building things that look different and work harder.
+        </p>
+      </div>
+
+      <!-- SOCIALS -->
+      <div class="socials">
+        <a href="https://github.com/DarkWingStudio" class="soc-btn" title="Github" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+       <!-- <a href="https://instagram.com/DarkWing.in" class="soc-btn" title="Instagram" target="_blank"> 
+          <i class="fab fa-instagram"></i>
+        </a> -->
+        <a href="https://www.youtube.com/@DarkWing-in" class="soc-btn" title="YouTube" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.pinterest.com/Darkwingstudio" class="soc-btn" title="Pinterest" target="_blank">
+          <i class="fab fa-pinterest-p"></i> <!-- Correct Pinterest icon -->
+        </a>
+        <a href="https://x.com/DarkWingStudio" class="soc-btn" title="X (Twitter)" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <!-- <a href="https://twitch.tv/DarkWingStudio" class="soc-btn" title="Twitch" target="_blank">
+          <i class="fab fa-twitch"></i> -->
+        </a>
+      </div>
+    </div>
+
+    <!-- NAVIGATION BUTTONS -->
+    <div class="nav-buttons">
+      <button class="nav-btn active" data-target="links-section">
+        <i class="fa-solid fa-link"></i> Links
+      </button>
+      <button class="nav-btn" data-target="shop-section">
+        <i class="fa-solid fa-cart-shopping"></i> Shop
+      </button>
+      <button class="nav-btn" data-target="contact-section">
+        <i class="fa-solid fa-envelope"></i>Contact
+      </button>
+    </div>
+
+    <!-- CONTENT SECTIONS -->
+    <div class="content-area">
+
+      <!-- LINKS SECTION -->
+      <section id="links-section" class="content-section active">
+        <h2 class="section-title">Essential Connections</h2>
+        <div class="link-list" id="link-list"></div>
+      </section>
+
+      <!-- SHOP SECTION -->
+      <section id="shop-section" class="content-section">
+        <h2 class="section-title">Midnight Collectibles</h2>
+        <div class="shop-grid" id="shop-grid"></div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact-section" class="content-section">
+        <h2 class="section-title">Initiate Transmission</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="email" class="form-label">Your Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="your@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" class="form-textarea" placeholder="Tell me about your project or request..." required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Signal</button>
+        </form>
+      </section>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-line-top"></div>
+      <div class="footer-inner">
+        <div class="footer-brand">©<span id="year"></span> <span>DarkWing</span>Studio</div>
+        <div class="footer-tagline">built in the dark. shipped to the world.</div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>

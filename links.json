@@ -1,0 +1,20 @@
+[
+  {
+    "label": "My Portfolio / Latest Work",
+    "cmd": "$ open --portfolio",
+    "icon": "fa-bolt",
+    "link": "https://darkwingstudio.github.io/"
+  },
+  {
+    "label": "Exclusive Assets & Freebies",
+    "cmd": "$ fetch --assets",
+    "icon": "fa-cube",
+    "link": "#"
+  },
+  {
+    "label": "Behind The Scenes Blog",
+    "cmd": "$ read --blog",
+    "icon": "fa-terminal",
+    "link": "#"
+  }
+]

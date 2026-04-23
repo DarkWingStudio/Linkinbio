@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Neon Core Bundle",
+    "desc": "Full UI kit with glitch effects and dark components.",
+    "price": "$49.00",
+    "tag": "New",
+    "image": "https://via.placeholder.com/300x140/8a2be2/ffffff?text=Neon+Core",
+    "link": "#"
+  },
+  {
+    "title": "Void Textures Pack",
+    "desc": "50+ dark seamless textures for edits and 3D.",
+    "price": "$24.00",
+    "tag": "",
+    "image": "https://via.placeholder.com/300x140/4B0082/ffffff?text=Void+Textures",
+    "link": "#"
+  }
+]
