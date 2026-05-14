@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://darkwingstudio.netlify.app/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://darkwingstudio.netlify.app/assets/banner.jpg</image:loc>
+      <image:title>DarkWing Studio banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://darkwingstudio.netlify.app/assets/pfp.jpeg</image:loc>
+      <image:title>DarkWing Studio profile picture</image:title>
+    </image:image>
+  </url>
+</urlset>

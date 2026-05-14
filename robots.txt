@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.env
+
+Sitemap: https://darkwingstudio.netlify.app/sitemap.xml

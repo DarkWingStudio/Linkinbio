@@ -1,20 +1,51 @@
 [
   {
-    "label": "My Portfolio / Latest Work",
+    "label": "See My Latest Projects",
     "cmd": "$ open --portfolio",
-    "icon": "fa-bolt",
-    "link": "https://darkwingstudio.github.io/"
+    "icon": "fa-solid fa-rocket",
+    "link": "https://darkwingstudio.netlify.app/",
+    "priority": "primary"
   },
   {
-    "label": "Exclusive Assets & Freebies",
-    "cmd": "$ fetch --assets",
-    "icon": "fa-cube",
-    "link": "#"
+    "label": "GitHub Repos",
+    "cmd": "$ git --code",
+    "icon": "fa-brands fa-github",
+    "link": "https://github.com/DarkWingStudio",
+    "priority": "secondary"
   },
   {
-    "label": "Behind The Scenes Blog",
-    "cmd": "$ read --blog",
-    "icon": "fa-terminal",
-    "link": "#"
+    "label": "Instagram DM",
+    "cmd": "$ dm --instagram",
+    "icon": "fa-brands fa-instagram",
+    "link": "https://instagram.com/DarkWing.in",
+    "priority": "tertiary"
+  },
+  {
+    "label": "YouTube Channel",
+    "cmd": "$ watch --content",
+    "icon": "fa-brands fa-youtube",
+    "link": "https://www.youtube.com/@DarkWing-in",
+    "priority": "tertiary"
+  },
+  {
+    "label": "X / Twitter",
+    "cmd": "$ follow --updates",
+    "icon": "fa-brands fa-x-twitter",
+    "link": "https://x.com/DarkWingStudio",
+    "priority": "tertiary"
+  },
+  {
+    "label": "Pinterest Board",
+    "cmd": "$ save --inspiration",
+    "icon": "fa-brands fa-pinterest-p",
+    "link": "https://www.pinterest.com/Darkwingstudio",
+    "priority": "tertiary"
+  },
+  {
+    "label": "Reddit Profile",
+    "cmd": "$ browse --community",
+    "icon": "fa-brands fa-reddit-alien",
+    "link": "https://www.reddit.com/user/darkwingstudio",
+    "priority": "tertiary"
   }
 ]
