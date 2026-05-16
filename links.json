@@ -3,7 +3,7 @@
     "label": "See My Latest Projects",
     "cmd": "$ open --portfolio",
     "icon": "fa-solid fa-rocket",
-    "link": "https://darkwingstudio.netlify.app/",
+    "link": "https://darkwingstudio.github.io",
     "priority": "primary"
   },
   {
