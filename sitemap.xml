@@ -4,9 +4,35 @@
   <url>
     <loc>https://darkwingstudio.netlify.app/</loc>
     <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <image:image>
-      <image:loc>https://darkwingstudio.netlify.app/assets/pfp.jpeg</image:loc>
+      <image:loc>https://darkwingstudio.netlify.app/assets/ProfilePIC.webp</image:loc>
       <image:title>DarkWing Studio profile artwork</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://darkwingstudio.netlify.app/about/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://darkwingstudio.netlify.app/minecraft/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://darkwingstudio.netlify.app/projects/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkwingstudio.netlify.app/art/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

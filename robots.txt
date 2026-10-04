@@ -1,7 +1,29 @@
+# robots.txt for DarkWingStudio
+
+# General crawlers
 User-agent: *
 Allow: /
 Disallow: /.git/
 Disallow: /node_modules/
 Disallow: /.env
 
+# Google Search
+User-agent: Googlebot
+Allow: /
+
+# Google-Extended controls use of content for Gemini AI model training and grounding.
+# It does NOT control Google Search indexing (Googlebot controls that separately).
+# Per: https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers
+User-agent: Google-Extended
+Allow: /
+
+# Bing and Copilot visibility
+User-agent: Bingbot
+Allow: /
+
+# ChatGPT Search Bot - Explicitly allowed for ChatGPT search discoverability
+User-agent: OAI-SearchBot
+Allow: /
+
+# Sitemap Location
 Sitemap: https://darkwingstudio.netlify.app/sitemap.xml
