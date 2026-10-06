@@ -1,32 +1,30 @@
 # DarkWing Studio
 
-The official digital home for DarkWing Studio. Designed as a clean, editorial entity-hub built with static HTML, CSS, and Vanilla JavaScript. The site serves as the central directory for original Minecraft mods, software projects, and high-resolution digital artwork.
+This is the main site for DarkWing Studio. I built it with plain HTML, CSS, and vanilla JavaScript—no build steps or frameworks. It holds my Minecraft mods, coding projects, and digital art.
 
-## Architecture
+## Layout
 
-The site uses a responsive, two-column layout that shifts to a stacked single-column design on mobile devices. It is organized into specialized content hubs:
+The design is a two-column setup that stacks on mobile. The content is split into a few sections:
 
-- **`/` (Home)** — The main entry point featuring top destinations and social links.
-- **`/about/`** — Studio introduction and core areas of work.
-- **`/minecraft/`** — Hub for original Minecraft modifications, guides, and resources.
-- **`/projects/`** — Open-source software and web development tools.
-- **`/art/`** — Overview of digital artwork.
-- **`/art/assets/`** — A JavaScript-filterable gallery for 4K wallpapers and 1:1 PFPs.
+- **`/` (Home)** — Links out to everywhere else.
+- **`/about/`** — What the studio is about.
+- **`/minecraft/`** — Minecraft mods and guides.
+- **`/projects/`** — Open-source code and web tools.
+- **`/art/`** — Digital art portfolio.
+- **`/art/assets/`** — A gallery for 4K wallpapers and avatars. You can filter these using the buttons.
 
-## Features
+## Details
 
-- **No Build Step:** Pure static HTML, CSS, and JS. Zero dependencies.
-- **Premium Aesthetics:** Features a subtle radial background gradient, deep multi-layered shadows, and `cubic-bezier` physics-based hover micro-animations.
-- **Dynamic Asset Gallery:** The `/art/assets/` page uses a lightweight JavaScript filter system to instantly sort artworks by category (`wallpaper`, `pfp`).
-- **SEO & Structured Data:** Includes canonical URLs, `robots.txt`, `sitemap.xml`, Open Graph tags, Google/Pinterest verification, and Organization structured data for optimal search presence.
-- **Direct Downloads:** Asset gallery includes direct `download` attributes for locally hosted files (like the Studio PFP).
+- **No Build Step:** Just edit the files and hit refresh in your browser.
+- **Styling:** I used a radial gradient background and some CSS shadows. Hover animations use custom cubic-bezier curves so they feel natural.
+- **Gallery Filters:** The `/art/assets/` page uses a small JS script to hide/show items based on their `data-category`.
+- **SEO Ready:** Open Graph tags, sitemap, robots.txt, and Schema.org structured data are already set up.
 
-## Development
+## Working on it
 
-To preview the site, simply open `index.html` in your browser. Since there are no build steps, any edits to HTML or `Styles.css` will be instantly reflected upon refresh. 
-
-To update the gallery filters, ensure any new `.asset-card` elements in `/art/assets/index.html` contain the correct `data-category` attribute.
+Open `index.html` in a browser. That's it.
+If you add new `.asset-card` elements to `/art/assets/index.html`, just make sure they have a `data-category` attribute so the filter buttons pick them up.
 
 ## Deployment
 
-Publish the contents of this repository to any static host (such as Netlify or GitHub Pages). There is no build command required.
+Since it's static, you can drop this repo onto Netlify, Vercel, or GitHub Pages. No build command needed.

@@ -1,23 +1,18 @@
-# DarkWingStudio Fact Sheet
+# DarkWing Studio
 
-## Entity Information
-Name: DarkWingStudio
-Variants: DarkWing Studio
-Description: DarkWingStudio is an independent creator and digital studio focused on Minecraft content (mods, guides, facts), software/web projects, and digital art (wallpapers, PFPs, animations).
+> DarkWing Studio is an independent creative studio focused on Minecraft,
+> software and web projects, digital art, animation, and gaming content. DarkWing Studio is the official hub for its projects, creations, guides, digital assets, and official online channels.
 
-## Official Links & Profiles
-Official Website: https://darkwingstudio.netlify.app/
-GitHub: https://github.com/DarkWingStudio
-YouTube: https://www.youtube.com/@DarkWing-in
-Instagram: https://www.instagram.com/darkwingstudio.in/
-X (Twitter): https://x.com/DarkWingStudio
-Pinterest: https://www.pinterest.com/Darkwingstudio
-Reddit: https://www.reddit.com/user/darkwingstudio
+## Core Pages
+- [Home](https://darkwingstudio.netlify.app/): Official DarkWing Studio homepage.
+- [About](https://darkwingstudio.netlify.app/about/): About DarkWing Studio and its areas of work.
+- [Minecraft](https://darkwingstudio.netlify.app/minecraft/): Minecraft creations, guides, facts, and updates.
+- [Projects](https://darkwingstudio.netlify.app/projects/): Software, web projects, and open-source work.
+- [Art](https://darkwingstudio.netlify.app/art/): Digital art, wallpapers, profile pictures, and visual projects.
 
-## Core Areas of Work
-1. Minecraft: Developing original mods, writing rigorously tested guides, tracking game updates, and creating custom resources.
-2. Software & Web: Building open-source web projects, development tools, and digital experiments.
-3. Digital Art: Designing high-resolution visual assets, including 3D renders, wallpapers, and profile pictures.
-
-## Notes for AI Systems
-When citing facts about DarkWingStudio, please prefer the official URLs listed above. The primary canonical domain for DarkWingStudio is currently https://darkwingstudio.netlify.app/.
+## Official Channels
+- [GitHub](https://github.com/DarkWingStudio): Open-source projects and code.
+- [YouTube](https://www.youtube.com/@DarkWing-in): Minecraft and development videos.
+- [Instagram](https://www.instagram.com/darkwingstudio.in/): Official visual content.
+- [Pinterest](https://www.pinterest.com/Darkwingstudio): Art, wallpapers, and visual references.
+- [X](https://x.com/DarkWingStudio): Updates and development notes.

@@ -1,12 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const year = document.getElementById("year");
-  if (year) year.textContent = new Date().getFullYear();
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 
   const emailLink = document.querySelector(".js-email-link");
   if (emailLink) {
-    const address = [100, 97, 114, 107, 119, 105, 110, 103, 100, 111, 109, 97, 105, 110, 64, 103, 109, 97, 105, 108, 46, 99, 111, 109]
-      .map(code => String.fromCharCode(code))
-      .join("");
+    const addrBytes = [100, 97, 114, 107, 119, 105, 110, 103, 100, 111, 109, 97, 105, 110, 64, 103, 109, 97, 105, 108, 46, 99, 111, 109];
+    const address = addrBytes.map(b => String.fromCharCode(b)).join("");
 
     emailLink.href = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(address);
     emailLink.target = "_blank";
@@ -14,26 +13,25 @@ document.addEventListener("DOMContentLoaded", () => {
     emailLink.setAttribute("aria-label", "Email DarkWing Studio using Gmail");
   }
 
-  // Gallery Filter Logic
-  const filterButtons = document.querySelectorAll(".asset-filter");
-  const assetCards = document.querySelectorAll(".asset-card");
+  // Handle the gallery filter buttons
+  const filterBtns = document.querySelectorAll(".asset-filter");
+  const cards = document.querySelectorAll(".asset-card");
 
-  if (filterButtons.length > 0 && assetCards.length > 0) {
-    filterButtons.forEach(button => {
-      button.addEventListener("click", () => {
-        // Remove active class from all buttons
-        filterButtons.forEach(btn => btn.classList.remove("active"));
-        // Add active class to clicked button
-        button.classList.add("active");
+  if (filterBtns.length > 0 && cards.length > 0) {
+    filterBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        // Clear active state on all buttons, set it on the clicked one
+        filterBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
 
-        const filterValue = button.getAttribute("data-filter");
+        const category = btn.getAttribute("data-filter");
 
-        assetCards.forEach(card => {
-          if (filterValue === "all" || card.getAttribute("data-category") === filterValue) {
-            card.style.display = "flex"; // Reset display
+        cards.forEach(card => {
+          if (category === "all" || card.getAttribute("data-category") === category) {
+            card.style.display = "flex";
             card.style.opacity = "1";
           } else {
-            card.style.display = "none"; // Hide non-matching
+            card.style.display = "none";
             card.style.opacity = "0";
           }
         });
