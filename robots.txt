@@ -1,28 +1,65 @@
-# robots.txt for DarkWingStudio
+# robots.txt for DarkWing Studio (https://darkwingstudio.netlify.app)
+# Comprehensive 2026 AI-Crawler & Search Engine Access Policy
 
-# General crawlers
+# Default Rule for General Web Crawlers
 User-agent: *
 Allow: /
 Disallow: /.git/
 Disallow: /node_modules/
 Disallow: /.env
+Disallow: /scratch/
 
 # Google Search
 User-agent: Googlebot
 Allow: /
 
 # Google-Extended controls use of content for Gemini AI model training and grounding.
-# It does NOT control Google Search indexing (Googlebot controls that separately).
-# Per: https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers
 User-agent: Google-Extended
 Allow: /
 
-# Bing and Copilot visibility
+# Bing and Microsoft Copilot
 User-agent: Bingbot
 Allow: /
 
-# ChatGPT Search Bot - Explicitly allowed for ChatGPT search discoverability
+# OpenAI — ChatGPT Search, User Browsing, and Citation Bots
 User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Anthropic — Claude Search, User Browsing, and Citations
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity AI — Real-time Search and Citation
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Apple — Siri, Spotlight, and Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon — Alexa and Bedrock Web Search
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Amzn-SearchBot
 Allow: /
 
 # Sitemap Location

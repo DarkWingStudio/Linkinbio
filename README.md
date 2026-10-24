@@ -18,7 +18,7 @@ The design is a two-column setup that stacks on mobile. The content is split int
 - **No Build Step:** Just edit the files and hit refresh in your browser.
 - **Styling:** I used a radial gradient background and some CSS shadows. Hover animations use custom cubic-bezier curves so they feel natural.
 - **Gallery Filters:** The `/art/assets/` page uses a small JS script to hide/show items based on their `data-category`.
-- **SEO Ready:** Open Graph tags, sitemap, robots.txt, and Schema.org structured data are already set up.
+- **SEO, Analytics & AI Ready:** Open Graph tags (including a custom 1672x941 `og-image.png` card), Google Analytics (`gtag.js`), Schema.org structured data, and an `llms.txt` file for agentic discoverability are already set up.
 
 ## Working on it
 

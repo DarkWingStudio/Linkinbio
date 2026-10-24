@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f2f0e9">
+  <meta name="description" id="meta-description"
+    content="Minecraft Mob Database entry by DarkWing Studio. Combat stats, variants, spawn requirements, and drops.">
+  <meta name="author" content="DarkWing Studio">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" id="meta-canonical" href="https://darkwingstudio.netlify.app/minecraft/mobs/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="DarkWing Studio">
+  <meta property="og:title" id="og-title" content="Minecraft Mob Database | DarkWing Studio">
+  <meta property="og:description" id="og-description"
+    content="Combat stats, variants, spawn conditions, and drops in Minecraft 1.21.">
+  <meta property="og:url" id="og-url" content="https://darkwingstudio.netlify.app/minecraft/mobs/">
+  <meta property="og:image" id="og-image" content="https://darkwingstudio.netlify.app/assets/og-image.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitter-title" content="Minecraft Mob Database | DarkWing Studio">
+  <meta name="twitter:description" id="twitter-description"
+    content="Combat stats, variants, spawn conditions, and drops in Minecraft 1.21.">
+  <meta name="twitter:image" id="twitter-image" content="https://darkwingstudio.netlify.app/assets/og-image.png">
+  <meta name="twitter:creator" content="@DarkWingStudio">
+
+  <link rel="icon" type="image/webp" href="/assets/ProfilePIC.webp">
+  <link rel="apple-touch-icon" href="/assets/ProfilePIC.webp">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="../../Styles.css">
+  <script src="../../script.js" defer></script>
+
+  <title id="page-title">Minecraft Mob Database | DarkWing Studio</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#mob-detail-content">Skip to content</a>
+
+  <div class="site-frame">
+    <header class="topbar">
+      <a class="wordmark" href="/" aria-label="DarkWing Studio home">
+        <img src="../../assets/ProfilePIC.webp" alt="DarkWing Studio Logo" class="wordmark-icon" width="34" height="34"
+          style="border-radius: 9px 3px 9px 3px; object-fit: cover;">
+        <span>DarkWing Studio</span>
+      </a>
+      <nav class="topbar-nav" aria-label="Site sections">
+        <a href="/about/" class="topbar-nav-link">About</a>
+        <a href="/minecraft/" class="topbar-nav-link">Minecraft</a>
+        <a href="/projects/" class="topbar-nav-link">Projects</a>
+        <a href="/art/" class="topbar-nav-link">Art</a>
+      </nav>
+    </header>
+
+    <main class="site-card site-card--content" id="mob-detail-content">
+      <div class="content-page-inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol id="breadcrumb-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/minecraft/">Minecraft</a></li>
+            <li aria-current="page" id="breadcrumb-current">Mob Details</li>
+          </ol>
+        </nav>
+
+        <div id="mob-render-target">
+          <div style="padding: 40px 0; text-align: center; color: var(--muted);">
+            <p>Loading mob entry...</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="sidebar-panel" aria-label="Sidebar">
+        <div class="sidebar-heading">
+          <h3>Explore</h3>
+        </div>
+        <nav class="link-list" aria-label="Explore DarkWing Studio">
+          <a class="link-row" href="/minecraft/">
+            <span class="link-copy"><span class="link-title">Minecraft Hub</span></span>
+            <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </a>
+          <a class="link-row" href="/projects/">
+            <span class="link-copy"><span class="link-title">Projects</span></span>
+            <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </a>
+          <a class="link-row" href="/art/">
+            <span class="link-copy"><span class="link-title">Digital Art</span></span>
+            <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </a>
+          <a class="link-row" href="/about/">
+            <span class="link-copy"><span class="link-title">About</span></span>
+            <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </a>
+        </nav>
+
+        <div class="sidebar-heading">
+          <h3>Around the web</h3>
+        </div>
+        <nav class="link-list" aria-label="Around the web">
+          <a class="link-row" href="https://github.com/DarkWingStudio" target="_blank" rel="noopener noreferrer">
+            <span class="link-copy"><span class="link-title">GitHub</span></span>
+            <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </a>
+          <a class="link-row" href="https://www.youtube.com/@DarkWing-in" target="_blank" rel="noopener noreferrer">
+            <span class="link-copy"><span class="link-title">YouTube</span></span>
+            <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </a>
+          <a class="link-row" href="https://www.instagram.com/darkwingstudio.in/" target="_blank" rel="noopener noreferrer">
+            <span class="link-copy"><span class="link-title">Instagram</span></span>
+            <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" aria-hidden="true" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </a>
+        </nav>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> DarkWing Studio</span>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      // Determine Mob ID from path /minecraft/mobs/<id>/ or query param ?id=<id>
+      function getMobId() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('id')) {
+          return params.get('id').toLowerCase().trim();
+        }
+        const pathname = window.location.pathname.replace(/\/+$/, '');
+        const segments = pathname.split('/');
+        const lastSegment = segments[segments.length - 1];
+        if (lastSegment && lastSegment !== 'mobs' && lastSegment !== 'index.html') {
+          return lastSegment.toLowerCase().trim();
+        }
+        return null;
+      }
+
+      function escapeHtml(str) {
+        if (str === null || str === undefined) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      function getCategoryClass(category) {
+        const cat = (category || '').toLowerCase();
+        if (cat === 'hostile') return 'mob-badge--hostile';
+        if (cat === 'passive') return 'mob-badge--passive';
+        if (cat === 'neutral') return 'mob-badge--neutral';
+        if (cat === 'boss') return 'mob-badge--boss';
+        return 'mob-badge--rarity';
+      }
+
+      const target = document.getElementById('mob-render-target');
+      const mobId = getMobId();
+
+      fetch('/minecraft/mobs.json')
+        .then(response => {
+          if (!response.ok) throw new Error('Failed to load mobs database');
+          return response.json();
+        })
+        .then(mobs => {
+          if (!mobId) {
+            renderMobIndexRedirect(mobs);
+            return;
+          }
+
+          const mobIndex = mobs.findIndex(m => m.id.toLowerCase() === mobId);
+          if (mobIndex === -1) {
+            renderNotFound(mobId);
+            return;
+          }
+
+          const mob = mobs[mobIndex];
+          const prevMob = mobIndex > 0 ? mobs[mobIndex - 1] : null;
+          const nextMob = mobIndex < mobs.length - 1 ? mobs[mobIndex + 1] : null;
+
+          renderMobDetail(mob, prevMob, nextMob);
+        })
+        .catch(err => {
+          target.innerHTML = `
+            <div style="padding: 40px 0; text-align: center;">
+              <h2>Unable to load mob data</h2>
+              <p style="color: var(--muted); margin-bottom: 20px;">${escapeHtml(err.message)}</p>
+              <a href="/minecraft/" class="mob-nav-btn">Return to Minecraft Hub</a>
+            </div>
+          `;
+        });
+
+      function renderNotFound(id) {
+        document.title = 'Mob Not Found | DarkWing Studio';
+        target.innerHTML = `
+          <div style="padding: 40px 0; text-align: center;">
+            <p class="eyebrow" style="color: #dc3545;">ERROR 404</p>
+            <h1>Mob Not Found</h1>
+            <p style="color: var(--muted); margin: 12px auto 24px auto; max-width: 480px;">
+              No entry found matching "<strong>${escapeHtml(id)}</strong>". Check the spelling or browse the complete mob catalog below.
+            </p>
+            <a href="/minecraft/" class="mob-nav-btn">Browse Mob Database</a>
+          </div>
+        `;
+      }
+
+      function renderMobIndexRedirect(mobs) {
+        // If someone visits /minecraft/mobs/ without a slug, redirect or list
+        window.location.replace('/minecraft/#mobs-database');
+      }
+
+      function renderMobDetail(mob, prevMob, nextMob) {
+        // Update document metadata
+        document.title = `${mob.name} — Minecraft Mob Database | DarkWing Studio`;
+        document.getElementById('breadcrumb-current').textContent = mob.name;
+        
+        const descEl = document.getElementById('meta-description');
+        if (descEl) descEl.content = mob.description;
+        
+        const ogTitle = document.getElementById('og-title');
+        if (ogTitle) ogTitle.content = `${mob.name} — Minecraft Mob Database`;
+        
+        const ogDesc = document.getElementById('og-description');
+        if (ogDesc) ogDesc.content = mob.description;
+
+        const ogImage = document.getElementById('og-image');
+        if (ogImage) ogImage.content = mob.image;
+
+        // Damage values formatting
+        let damageDetails = '<span style="color: var(--muted);">None (Passive Entity)</span>';
+        let damagePrimary = '0';
+        if (mob.damage && typeof mob.damage === 'object') {
+          damagePrimary = `${mob.damage.normal} dmg`;
+          damageDetails = `
+            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px;">
+              <span class="mob-info-chip" style="background: rgba(46, 204, 113, 0.15); color: #2e7d32; font-weight: 600;">Easy: ${mob.damage.easy}</span>
+              <span class="mob-info-chip" style="background: rgba(241, 196, 15, 0.15); color: #b78103; font-weight: 600;">Normal: ${mob.damage.normal}</span>
+              <span class="mob-info-chip" style="background: rgba(235, 68, 90, 0.15); color: #c62828; font-weight: 600;">Hard: ${mob.damage.hard}</span>
+            </div>
+          `;
+        } else if (typeof mob.damage === 'number' && mob.damage > 0) {
+          damagePrimary = `${mob.damage} dmg`;
+          damageDetails = `<span>Direct attack: <strong>${mob.damage}</strong></span>`;
+        }
+
+        // Visual hearts gauge
+        const heartsCount = Math.round(mob.hearts || mob.health / 2);
+        let heartIcons = '';
+        for (let i = 0; i < Math.min(heartsCount, 10); i++) {
+          heartIcons += '❤️';
+        }
+        if (heartsCount > 10) {
+          heartIcons += ` +${heartsCount - 10}`;
+        }
+
+        // Drops formatting
+        let dropsRows = '';
+        if (mob.drops && mob.drops.length > 0) {
+          dropsRows += mob.drops.map(d => `
+            <tr>
+              <td><strong>${escapeHtml(d)}</strong></td>
+              <td><span class="mob-badge mob-badge--rarity">Standard Drop</span></td>
+              <td>Slain by player or natural cause</td>
+            </tr>
+          `).join('');
+        } else {
+          dropsRows += `
+            <tr>
+              <td colspan="3" style="color: var(--muted); text-align: center; padding: 16px;">No standard item drops</td>
+            </tr>
+          `;
+        }
+
+        if (mob.rareDrop) {
+          dropsRows += `
+            <tr class="rare-row">
+              <td><strong style="color: #9a7041;">⭐ ${escapeHtml(mob.rareDrop)}</strong></td>
+              <td><span class="mob-badge" style="background: rgba(255, 193, 7, 0.2); color: #855b14; border: 1px solid rgba(255, 193, 7, 0.5);">Rare / Special Drop</span></td>
+              <td>Rare kill condition or chance trigger</td>
+            </tr>
+          `;
+        }
+
+        // Variants formatting
+        let variantsHtml = '';
+        if (mob.variants && mob.variants.length > 0) {
+          variantsHtml = `
+            <div class="mob-content-card">
+              <h3>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Variants &amp; Subspecies (${mob.variants.length})
+              </h3>
+              <div class="mob-variant-grid">
+                ${mob.variants.map(v => {
+                  if (typeof v === 'string') {
+                    return `
+                      <div class="mob-variant-item">
+                        <span class="mob-variant-title">${escapeHtml(v)}</span>
+                      </div>
+                    `;
+                  }
+                  return `
+                    <div class="mob-variant-item">
+                      <span class="mob-variant-title">${escapeHtml(v.name)}</span>
+                      <span class="mob-variant-text">${escapeHtml(v.description)}</span>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `;
+        }
+
+        target.innerHTML = `
+          <div class="mob-detail-hero">
+            <div class="mob-detail-stage">
+              <img src="${escapeHtml(mob.image)}" alt="${escapeHtml(mob.name)} render" width="160" height="180" loading="eager" fetchpriority="high" decoding="async">
+            </div>
+            <div class="mob-detail-info">
+              <div class="mob-badge-container">
+                <span class="mob-badge ${getCategoryClass(mob.category)}">${escapeHtml(mob.category)}</span>
+                <span class="mob-badge mob-badge--rarity">${escapeHtml(mob.rarity)}</span>
+                <span class="mob-badge mob-badge--version">MC ${escapeHtml(mob.mcVersion)}</span>
+              </div>
+              <h1 class="mob-detail-title">${escapeHtml(mob.name)}</h1>
+              <p class="mob-detail-desc">${escapeHtml(mob.description)}</p>
+
+              <div class="mob-detail-chips">
+                <span class="mob-info-chip"><strong>Category:</strong> ${escapeHtml(mob.category)}</span>
+                <span class="mob-info-chip"><strong>Rarity:</strong> ${escapeHtml(mob.rarity)}</span>
+                <span class="mob-info-chip"><strong>Version:</strong> Minecraft ${escapeHtml(mob.mcVersion)}</span>
+              </div>
+
+              <div style="font-size: 11px; color: #a497b3; margin-top: 6px;">
+                Image Attribution: <em>${escapeHtml(mob.imageCredit)}</em> · 
+                <a href="${escapeHtml(mob.wikiUrl)}" target="_blank" rel="noopener noreferrer" style="color: #e0b0ff; text-decoration: underline;">Minecraft Wiki reference</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="mob-vitals-grid">
+            <div class="mob-vital-card">
+              <span class="mob-vital-title">❤️ Vital Health</span>
+              <div class="mob-vital-main">
+                <span>${escapeHtml(mob.health)} HP</span>
+              </div>
+              <div class="mob-vital-sub">
+                <div>${escapeHtml(mob.hearts)} Hearts equivalent</div>
+                <div style="font-size: 11px; margin-top: 2px;">${heartIcons}</div>
+              </div>
+            </div>
+
+            <div class="mob-vital-card">
+              <span class="mob-vital-title">⚔️ Combat Damage</span>
+              <div class="mob-vital-main">
+                <span>${escapeHtml(damagePrimary)}</span>
+              </div>
+              <div class="mob-vital-sub">
+                ${damageDetails}
+              </div>
+            </div>
+
+            <div class="mob-vital-card">
+              <span class="mob-vital-title">🛡️ Armor Defense</span>
+              <div class="mob-vital-main">
+                <span>${escapeHtml(mob.armor)}</span>
+              </div>
+              <div class="mob-vital-sub">
+                ${mob.armor > 0 ? `Natural defense rating reduces incoming damage` : `Zero innate armor points`}
+              </div>
+            </div>
+
+            <div class="mob-vital-card">
+              <span class="mob-vital-title">✨ Experience Yield</span>
+              <div class="mob-vital-main">
+                <span>${escapeHtml(mob.xp)} XP</span>
+              </div>
+              <div class="mob-vital-sub">
+                Dropped when slain by player or tamed wolf
+              </div>
+            </div>
+          </div>
+
+          <div class="mob-content-card">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="12 8 8 12 12 16 12 8"/></svg>
+              Behavior &amp; Combat Mechanics
+            </h3>
+            <p style="margin: 0 0 14px 0; font-size: 14px; line-height: 1.6; color: var(--ink);">
+              ${escapeHtml(mob.behavior)}
+            </p>
+            <div style="font-size: 13px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 12px; line-height: 1.6;">
+              <div><strong>Natural Spawn Conditions:</strong> ${escapeHtml(mob.spawn)}</div>
+              ${mob.biomes && mob.biomes.length > 0 ? `<div><strong>Native Biomes &amp; Environments:</strong> ${mob.biomes.map(b => escapeHtml(b)).join(', ')}</div>` : ''}
+            </div>
+          </div>
+
+          ${variantsHtml}
+
+          <div class="mob-content-card">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              Loot Drops &amp; Item Yields
+            </h3>
+            <table class="mob-drops-table" aria-label="Mob loot drops">
+              <thead>
+                <tr>
+                  <th>Item / Resource</th>
+                  <th>Drop Tier</th>
+                  <th>Obtaining Condition</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${dropsRows}
+              </tbody>
+            </table>
+          </div>
+
+          <div class="mob-legal-notice">
+            <strong>Mojang Legal Disclaimer:</strong> Not affiliated with, endorsed by, or associated with Mojang or Microsoft. Minecraft names, images, and trademarks belong to their respective owners, used here for informational/fan purposes only. Mob statistics reflect Minecraft release <strong>${escapeHtml(mob.mcVersion)}</strong>.
+          </div>
+
+          <nav class="mob-nav-bar" aria-label="Mob pagination">
+            <div>
+              ${prevMob ? `<a href="/minecraft/mobs/?id=${encodeURIComponent(prevMob.id)}" class="mob-nav-btn">← ${escapeHtml(prevMob.name)}</a>` : ''}
+            </div>
+            <div>
+              <a href="/minecraft/#mobs-database" class="mob-nav-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                All Mobs Catalog
+              </a>
+            </div>
+            <div>
+              ${nextMob ? `<a href="/minecraft/mobs/?id=${encodeURIComponent(nextMob.id)}" class="mob-nav-btn">${escapeHtml(nextMob.name)} →</a>` : ''}
+            </div>
+          </nav>
+        `;
+      }
+    })();
+  </script>
+</body>
+
+</html>

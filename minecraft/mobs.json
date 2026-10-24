@@ -1,0 +1,841 @@
+[
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "category": "Hostile",
+    "rarity": "Common",
+    "health": 20,
+    "hearts": 10,
+    "damage": {
+      "easy": 2.5,
+      "normal": 3,
+      "hard": 4.5
+    },
+    "armor": 2,
+    "xp": 5,
+    "spawn": "Overworld surface or caves at light level 0",
+    "biomes": [
+      "Overworld",
+      "Caves"
+    ],
+    "behavior": "Relentlessly pursues players and villagers in groups; attacks doors on Hard difficulty.",
+    "drops": [
+      "Rotten Flesh (0–2)"
+    ],
+    "rareDrop": "Iron Ingot, Carrot, or Potato (2.5% chance)",
+    "variants": [
+      {
+        "name": "Husk",
+        "description": "Spawns in Deserts; does not burn in direct sunlight and inflicts Hunger."
+      },
+      {
+        "name": "Drowned",
+        "description": "Spawns in Oceans and Rivers; swims swiftly and can throw Tridents."
+      },
+      {
+        "name": "Zombie Villager",
+        "description": "Infected villager that can be cured with a Splash Potion of Weakness and a Golden Apple."
+      },
+      {
+        "name": "Baby Zombie",
+        "description": "30% faster movement speed, 1-block height, and does not burn in sunlight."
+      }
+    ],
+    "image": "/assets/mobs/zombie.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Zombie",
+    "mcVersion": "1.21",
+    "description": "The quintessential undead monster of Minecraft, prowling the dark in pursuit of players and defenseless villagers."
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "category": "Hostile",
+    "rarity": "Common",
+    "health": 20,
+    "hearts": 10,
+    "damage": {
+      "easy": 2,
+      "normal": 3,
+      "hard": 5
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Overworld surface or caves at light level 0",
+    "biomes": [
+      "Overworld",
+      "Caves",
+      "Nether Fortresses"
+    ],
+    "behavior": "Ranged sniper that strafes away from approaching players while releasing accurate arrows.",
+    "drops": [
+      "Arrow (0–2)",
+      "Bone (0–2)"
+    ],
+    "rareDrop": "Bow (8.5% chance), Skeleton Skull (when killed by charged creeper)",
+    "variants": [
+      {
+        "name": "Stray",
+        "description": "Frozen skeleton found in icy tundras; fires tipped arrows of Slowness."
+      },
+      {
+        "name": "Bogged",
+        "description": "Mossy swamp skeleton added in 1.21; fires Poison arrows and can be sheared for mushrooms."
+      },
+      {
+        "name": "Skeleton Horseman",
+        "description": "Spawned by lightning skeleton traps; rides an invincible skeleton trap horse with iron gear."
+      }
+    ],
+    "image": "/assets/mobs/skeleton.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Skeleton",
+    "mcVersion": "1.21",
+    "description": "Deadly ranged archers that maintain distance, burn in daylight, and fire continuous volleys at intruders."
+  },
+  {
+    "id": "creeper",
+    "name": "Creeper",
+    "category": "Hostile",
+    "rarity": "Common",
+    "health": 20,
+    "hearts": 10,
+    "damage": {
+      "easy": 22.5,
+      "normal": 43,
+      "hard": 64.5
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Overworld at light level 0 on solid blocks",
+    "biomes": [
+      "Overworld",
+      "Caves"
+    ],
+    "behavior": "Silently sneaks up behind players and detonates after a 1.5 second hissing fuse.",
+    "drops": [
+      "Gunpowder (0–2)",
+      "Music Disc (if slain by a skeleton's arrow)"
+    ],
+    "rareDrop": "Mob Head (if killed by a Charged Creeper explosion)",
+    "variants": [
+      {
+        "name": "Charged Creeper",
+        "description": "Created when struck by lightning; features a pulsing blue aura and doubled explosive radius (up to 97 damage on Hard)."
+      }
+    ],
+    "image": "/assets/mobs/creeper.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Creeper",
+    "mcVersion": "1.21",
+    "description": "Minecraft's silent mascot of destruction, creeping soundlessly before unleashing devastating point-blank explosions."
+  },
+  {
+    "id": "spider",
+    "name": "Spider",
+    "category": "Hostile",
+    "rarity": "Common",
+    "health": 16,
+    "hearts": 8,
+    "damage": {
+      "easy": 2,
+      "normal": 2.5,
+      "hard": 3
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Overworld at light level 0 with 2x2 horizontal space",
+    "biomes": [
+      "Overworld",
+      "Caves",
+      "Forests"
+    ],
+    "behavior": "Climbs vertical walls effortlessly and leaps toward targets; neutral in daylight (light level 9+).",
+    "drops": [
+      "String (0–2)",
+      "Spider Eye (0–1)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Cave Spider",
+        "description": "Smaller, bluish variant found in abandoned mineshafts; fits into 0.5-block gaps and inflicts lethal Poison."
+      },
+      {
+        "name": "Spider Jockey",
+        "description": "1% chance spawn with an archer Skeleton riding on its back for combined speed and ranged firepower."
+      }
+    ],
+    "image": "/assets/mobs/spider.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Spider",
+    "mcVersion": "1.21",
+    "description": "Agile eight-legged predators that scale walls, pounce on unsuspecting adventurers, and turn neutral under bright daylight."
+  },
+  {
+    "id": "enderman",
+    "name": "Enderman",
+    "category": "Neutral",
+    "rarity": "Uncommon",
+    "health": 40,
+    "hearts": 20,
+    "damage": {
+      "easy": 4.5,
+      "normal": 7,
+      "hard": 10.5
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Overworld, Nether, and The End at light level 0 (light 0–7 in The End)",
+    "biomes": [
+      "The End",
+      "Nether Wastes",
+      "Overworld"
+    ],
+    "behavior": "Peaceful until a player gazes into its purple eyes or attacks; teleports rapidly and takes severe damage from water.",
+    "drops": [
+      "Ender Pearl (0–1)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Block-Carrying Enderman",
+        "description": "Can pick up and relocate natural blocks like dirt, sand, gravel, and flowers."
+      },
+      {
+        "name": "End Colony Enderman",
+        "description": "Massive populations native to The End outer islands, congregating peacefully until disturbed."
+      }
+    ],
+    "image": "/assets/mobs/enderman.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Enderman",
+    "mcVersion": "1.21",
+    "description": "Towering shadowy wanderers from The End who harness instant teleportation and become fiercely aggressive when stared at."
+  },
+  {
+    "id": "witch",
+    "name": "Witch",
+    "category": "Hostile",
+    "rarity": "Uncommon",
+    "health": 26,
+    "hearts": 13,
+    "damage": {
+      "easy": 3,
+      "normal": 6,
+      "hard": 9
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Overworld light level 0, Swamp Huts, or lightning strike on a Villager",
+    "biomes": [
+      "Swamps",
+      "Villages (during Raids)",
+      "Caves"
+    ],
+    "behavior": "Hurls harmful splash potions (Slowness, Poison, Harming) while self-medicating with potions of Healing and Fire Resistance.",
+    "drops": [
+      "Glass Bottle (0–2)",
+      "Glowstone Dust (0–2)",
+      "Gunpowder (0–2)",
+      "Redstone (0–2)",
+      "Spider Eye (0–2)",
+      "Sugar (0–2)",
+      "Stick (0–2)"
+    ],
+    "rareDrop": "Potion of Healing, Swiftness, or Fire Resistance (8.5% chance if killed while drinking)",
+    "variants": [
+      {
+        "name": "Swamp Hut Witch",
+        "description": "Guards natural swamp huts accompanied by a black cat."
+      },
+      {
+        "name": "Raid Witch",
+        "description": "Supports illager raid waves by healing raid captains and bombarding defenders with status effects."
+      }
+    ],
+    "image": "/assets/mobs/witch.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Witch",
+    "mcVersion": "1.21",
+    "description": "Cackling alchemists who brew caustic concoctions, support village raids, and drink defensive potions under duress."
+  },
+  {
+    "id": "slime",
+    "name": "Slime",
+    "category": "Hostile",
+    "rarity": "Uncommon",
+    "health": 16,
+    "hearts": 8,
+    "damage": {
+      "easy": 3,
+      "normal": 4,
+      "hard": 6
+    },
+    "armor": 0,
+    "xp": 4,
+    "spawn": "Specific Slime Chunks below Y=40, or Swamps between Y=50–70 at night",
+    "biomes": [
+      "Swamps",
+      "Deep Caves"
+    ],
+    "behavior": "Bounces toward targets; splits into smaller copies upon defeat until the smallest size drops sticky slimeballs.",
+    "drops": [
+      "Slimeball (0–2, dropped only by small slimes)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Big Slime",
+        "description": "Size 4 cube with 16 HP; divides into 2–4 Medium Slimes upon death."
+      },
+      {
+        "name": "Medium Slime",
+        "description": "Size 2 cube with 4 HP; divides into 2–4 Small Slimes upon death."
+      },
+      {
+        "name": "Small Slime",
+        "description": "Size 1 cube with 1 HP; completely harmless to players and the sole source of Slimeballs."
+      }
+    ],
+    "image": "/assets/mobs/slime.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Slime",
+    "mcVersion": "1.21",
+    "description": "Bouncy gelatinous cubes that thrive in humid swamps and deep subterranean caverns, multiplying as they take damage."
+  },
+  {
+    "id": "ghast",
+    "name": "Ghast",
+    "category": "Hostile",
+    "rarity": "Rare",
+    "health": 10,
+    "hearts": 5,
+    "damage": {
+      "easy": 9,
+      "normal": 17,
+      "hard": 25
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Nether biomes on solid blocks with at least 5x5x5 clearance",
+    "biomes": [
+      "Nether Wastes",
+      "Soul Sand Valley",
+      "Basalt Deltas"
+    ],
+    "behavior": "Drifts lazily through the Nether skies, emitting sorrowful cries before firing explosive fireballs that players can deflect.",
+    "drops": [
+      "Ghast Tear (0–1)",
+      "Gunpowder (0–2)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Nether Glider",
+        "description": "Massive 4x4x4 floating specter whose fireballs can blow open portals or be deflected back with weapon swings."
+      }
+    ],
+    "image": "/assets/mobs/ghast.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Ghast",
+    "mcVersion": "1.21",
+    "description": "Haunting floating leviathans of the Nether that wail mournfully and launch explosive fire charges across fiery chasms."
+  },
+  {
+    "id": "blaze",
+    "name": "Blaze",
+    "category": "Hostile",
+    "rarity": "Uncommon",
+    "health": 20,
+    "hearts": 10,
+    "damage": {
+      "easy": 4,
+      "normal": 6,
+      "hard": 9
+    },
+    "armor": 0,
+    "xp": 10,
+    "spawn": "Nether Fortresses at light level 11 or lower",
+    "biomes": [
+      "Nether Fortress"
+    ],
+    "behavior": "Hovers into the air, ignites, and launches a three-round burst of fireballs that set victims ablaze.",
+    "drops": [
+      "Blaze Rod (0–1 when killed directly by player or tamed wolf)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Fortress Spawner Blaze",
+        "description": "Constantly generated by ancient caged spawners on elevated fortress catwalks."
+      }
+    ],
+    "image": "/assets/mobs/blaze.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Blaze",
+    "mcVersion": "1.21",
+    "description": "Floating elemental constructs composed of whirling smoking rods, guarding Nether Fortresses with rapid bursts of flame."
+  },
+  {
+    "id": "breeze",
+    "name": "Breeze",
+    "category": "Hostile",
+    "rarity": "Uncommon",
+    "health": 30,
+    "hearts": 15,
+    "damage": {
+      "easy": 1,
+      "normal": 2,
+      "hard": 3
+    },
+    "armor": 0,
+    "xp": 10,
+    "spawn": "Trial Chambers via Trial Spawners (1.21 Tricky Trials)",
+    "biomes": [
+      "Trial Chambers"
+    ],
+    "behavior": "Leaps frantically around chamber obstacles, firing pressurized wind charges that knock players back and activate redstone.",
+    "drops": [
+      "Breeze Rod (1–2)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Trial Chamber Guardian",
+        "description": "Defends deep underground copper chambers; its wind projectiles trigger trapdoors, buttons, and dispensers."
+      }
+    ],
+    "image": "/assets/mobs/breeze.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Breeze",
+    "mcVersion": "1.21",
+    "description": "An airborne wind elemental introduced in Minecraft 1.21, bounding acrobatically across Trial Chambers with gusts of gale-force power."
+  },
+  {
+    "id": "warden",
+    "name": "Warden",
+    "category": "Hostile",
+    "rarity": "Rare",
+    "health": 500,
+    "hearts": 250,
+    "damage": {
+      "easy": 16,
+      "normal": 30,
+      "hard": 45
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Summoned in Deep Dark after 4 Sculk Shrieker activations",
+    "biomes": [
+      "Deep Dark",
+      "Ancient Cities"
+    ],
+    "behavior": "Completely blind; stalks players using sculk vibrations and smell. Can unleash an armor-piercing sonic boom at range.",
+    "drops": [
+      "Sculk Catalyst (1)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Deep Dark Stalker",
+        "description": "The terrifying apex predator of the Deep Dark; meant to be sneaked past rather than fought head-on."
+      }
+    ],
+    "image": "/assets/mobs/warden.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Warden",
+    "mcVersion": "1.21",
+    "description": "The monstrous blind sentinel of Ancient Cities, capable of neutralizing fully-armored warriors in a single sonic strike."
+  },
+  {
+    "id": "pig",
+    "name": "Pig",
+    "category": "Passive",
+    "rarity": "Common",
+    "health": 10,
+    "hearts": 5,
+    "damage": {
+      "easy": 0,
+      "normal": 0,
+      "hard": 0
+    },
+    "armor": 0,
+    "xp": 2,
+    "spawn": "Grassy Overworld biomes at light level 9+",
+    "biomes": [
+      "Plains",
+      "Forests",
+      "Meadows"
+    ],
+    "behavior": "Peacefully roams green pastures in herds; can be equipped with a saddle and steered using a Carrot on a Stick.",
+    "drops": [
+      "Raw Porkchop (1–3, cooked if slain by fire)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Saddled Pig",
+        "description": "Can be mounted and steered by holding a Carrot on a Stick, granting speed bursts."
+      },
+      {
+        "name": "Zombified Piglin",
+        "description": "Created instantly if struck directly by lightning during thunderstorms."
+      }
+    ],
+    "image": "/assets/mobs/pig.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Pig",
+    "mcVersion": "1.21",
+    "description": "The friendly, snorting pasture regular of Minecraft, ready to provide nutritious porkchops or serve as an amusing mount."
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "category": "Passive",
+    "rarity": "Common",
+    "health": 10,
+    "hearts": 5,
+    "damage": {
+      "easy": 0,
+      "normal": 0,
+      "hard": 0
+    },
+    "armor": 0,
+    "xp": 2,
+    "spawn": "Grassy Overworld biomes at light level 9+",
+    "biomes": [
+      "Plains",
+      "Meadows",
+      "Savannas"
+    ],
+    "behavior": "Grazes peacefully across sunny hillsides; provides endless milk when clicked with an empty iron bucket.",
+    "drops": [
+      "Leather (0–2)",
+      "Raw Beef (1–3, cooked if slain by fire)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Mooshroom (Red)",
+        "description": "Mushroom island native covered in red mushrooms; can be milked with a wooden bowl for Mushroom Stew."
+      },
+      {
+        "name": "Mooshroom (Brown)",
+        "description": "Rare variant created when a Red Mooshroom is struck by lightning; produces Suspicious Stew when fed small flowers."
+      }
+    ],
+    "image": "/assets/mobs/cow.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Cow",
+    "mcVersion": "1.21",
+    "description": "A staple farm animal essential for leather armor, enchanting books, steaks, and buckets of milk that cure all potion effects."
+  },
+  {
+    "id": "sheep",
+    "name": "Sheep",
+    "category": "Passive",
+    "rarity": "Common",
+    "health": 8,
+    "hearts": 4,
+    "damage": {
+      "easy": 0,
+      "normal": 0,
+      "hard": 0
+    },
+    "armor": 0,
+    "xp": 2,
+    "spawn": "Grassy Overworld biomes at light level 9+",
+    "biomes": [
+      "Plains",
+      "Meadows",
+      "Mountains"
+    ],
+    "behavior": "Grazes on grass blocks to regrow its coat; can be dyed any of 16 vibrant colors and shorn using Shears.",
+    "drops": [
+      "Wool (1 on death, 1–3 when sheared)",
+      "Raw Mutton (1–2)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Natural Colors",
+        "description": "Spawns in White (81.8%), Black (5%), Gray (5%), Light Gray (5%), Brown (3%), or ultra-rare Pink (0.164%)."
+      },
+      {
+        "name": "jeb_ (Rainbow)",
+        "description": "Named with a Name Tag 'jeb_' to create an undulating rainbow wool color-cycle effect."
+      }
+    ],
+    "image": "/assets/mobs/sheep.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Sheep",
+    "mcVersion": "1.21",
+    "description": "Gentle wool-bearers that keep grassy hills mowed, yielding colorful fleece for warm beds and banners."
+  },
+  {
+    "id": "villager",
+    "name": "Villager",
+    "category": "Passive",
+    "rarity": "Common",
+    "health": 20,
+    "hearts": 10,
+    "damage": {
+      "easy": 0,
+      "normal": 0,
+      "hard": 0
+    },
+    "armor": 0,
+    "xp": 5,
+    "spawn": "Naturally generated Villages or cured Zombie Villagers",
+    "biomes": [
+      "Plains Villages",
+      "Desert Villages",
+      "Savanna Villages",
+      "Taiga Villages",
+      "Snowy Villages"
+    ],
+    "behavior": "Gathers for town gossip, sleeps in designated beds, works at job workstations, and trades goods for emeralds.",
+    "drops": [],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "7 Regional Outfits",
+        "description": "Wears unique regional attire based on home biome: Plains, Desert, Savanna, Taiga, Snowy, Jungle, and Swamp."
+      },
+      {
+        "name": "15 Professions",
+        "description": "Ranges from Mending Librarians and Armorers to Toolsmiths, Clerics, and green-robed Nitwits."
+      }
+    ],
+    "image": "/assets/mobs/villager.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Villager",
+    "mcVersion": "1.21",
+    "description": "Resourceful, long-nosed traders inhabiting settlements across the world, offering vital enchanted books and high-tier equipment."
+  },
+  {
+    "id": "allay",
+    "name": "Allay",
+    "category": "Passive",
+    "rarity": "Rare",
+    "health": 20,
+    "hearts": 10,
+    "damage": {
+      "easy": 0,
+      "normal": 0,
+      "hard": 0
+    },
+    "armor": 0,
+    "xp": 0,
+    "spawn": "Cages at Pillager Outposts and cells in Woodland Mansions",
+    "biomes": [
+      "Pillager Outpost",
+      "Woodland Mansion"
+    ],
+    "behavior": "Flies gracefully alongside players; when given an item, seeks out and collects matching dropped items from the surroundings.",
+    "drops": [],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Dancing Allay",
+        "description": "Dances ecstatically when standing near an active jukebox; duplicates when given an Amethyst Shard while dancing."
+      }
+    ],
+    "image": "/assets/mobs/allay.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Allay",
+    "mcVersion": "1.21",
+    "description": "Luminous, sprite-like helpers rescued from illager captors, eager to gather matching scattered resources for their companions."
+  },
+  {
+    "id": "armadillo",
+    "name": "Armadillo",
+    "category": "Passive",
+    "rarity": "Common",
+    "health": 12,
+    "hearts": 6,
+    "damage": {
+      "easy": 0,
+      "normal": 0,
+      "hard": 0
+    },
+    "armor": 0,
+    "xp": 2,
+    "spawn": "Savannas and Badlands biomes (1.21 Tricky Trials)",
+    "biomes": [
+      "Savanna",
+      "Badlands"
+    ],
+    "behavior": "Wanders warm arid terrains; rolls into an impenetrable shell when startled by running players or nearby undead mobs.",
+    "drops": [],
+    "rareDrop": "Armadillo Scute (brushed with a Brush or shed periodically)",
+    "variants": [
+      {
+        "name": "Curled Defense",
+        "description": "Tucks limbs into an armored sphere, drastically mitigating incoming damage and deterring hostile strikes."
+      }
+    ],
+    "image": "/assets/mobs/armadillo.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Armadillo",
+    "mcVersion": "1.21",
+    "description": "A shy, armored critter introduced in Minecraft 1.21 that curls into a protective ball and yields scutes to craft durable wolf armor."
+  },
+  {
+    "id": "iron_golem",
+    "name": "Iron Golem",
+    "category": "Neutral",
+    "rarity": "Uncommon",
+    "health": 100,
+    "hearts": 50,
+    "damage": {
+      "easy": 11,
+      "normal": 21,
+      "hard": 32
+    },
+    "armor": 0,
+    "xp": 0,
+    "spawn": "Generated in villages with panicked villagers or built by players",
+    "biomes": [
+      "Villages"
+    ],
+    "behavior": "Faithfully patrols village borders; flings hostile mobs high into the air with towering uppercuts.",
+    "drops": [
+      "Iron Ingot (3–5)",
+      "Poppy (0–2)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Village Protector",
+        "description": "Spawns naturally to defend villagers; attacks players if village popularity drops below -15."
+      },
+      {
+        "name": "Player-Crafted Golem",
+        "description": "Constructed from 4 Iron Blocks and 1 Carved Pumpkin; forever loyal to its builder."
+      },
+      {
+        "name": "Cracked States",
+        "description": "Visually cracks as its health depletes; restored by clicking with Iron Ingots."
+      }
+    ],
+    "image": "/assets/mobs/iron_golem.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Iron_Golem",
+    "mcVersion": "1.21",
+    "description": "Colossal metallic guardians crafted from iron and pumpkins, offering Poppies to villagers and tossing intruders into the sky."
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "category": "Neutral",
+    "rarity": "Common",
+    "health": 40,
+    "hearts": 20,
+    "damage": {
+      "easy": 3,
+      "normal": 4,
+      "hard": 6
+    },
+    "armor": 0,
+    "xp": 2,
+    "spawn": "Forests, Taigas, and Savannas based on regional variant",
+    "biomes": [
+      "Taiga",
+      "Forest",
+      "Savanna",
+      "Grove",
+      "Badlands"
+    ],
+    "behavior": "Hunts sheep and skeletons in packs; tamed with bones to become a steadfast bodyguard that attacks targets on command.",
+    "drops": [],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "9 Biome Coats (1.21)",
+        "description": "Pale (Taiga), Woods (Forest), Ashen (Snowy Taiga), Black (Pine Taiga), Chestnut (Spruce Taiga), Rusty (Jungle), Spotted (Savanna), Striped (Badlands), and Snowy (Grove)."
+      },
+      {
+        "name": "Equipped with Wolf Armor",
+        "description": "Can be outfitted with craftable Wolf Armor forged from Armadillo Scutes to absorb damage."
+      }
+    ],
+    "image": "/assets/mobs/wolf.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Wolf",
+    "mcVersion": "1.21",
+    "description": "Loyal canine companions expanded in 1.21 with nine regional coat variations and protective craftable armadillo armor."
+  },
+  {
+    "id": "ender_dragon",
+    "name": "Ender Dragon",
+    "category": "Boss",
+    "rarity": "Boss",
+    "health": 200,
+    "hearts": 100,
+    "damage": {
+      "easy": 6,
+      "normal": 10,
+      "hard": 15
+    },
+    "armor": 0,
+    "xp": 12000,
+    "spawn": "The End central island",
+    "biomes": [
+      "The End"
+    ],
+    "behavior": "Swoops down from the obsidian pillars, perches on the bedrock fountain, breathes caustic purple dragon breath, and heals via End Crystals.",
+    "drops": [
+      "Dragon Egg (first defeat only)",
+      "Opens exit portal and Gateway to outer End islands"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Respawned Dragon",
+        "description": "Can be resurrected atop the exit portal using 4 craftable End Crystals; drops 500 XP upon subsequent defeats."
+      }
+    ],
+    "image": "/assets/mobs/ender_dragon.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Ender_Dragon",
+    "mcVersion": "1.21",
+    "description": "The gargantuan sovereign ruler of The End, dominating the skies above obsidian spires and guarding the Gateway to the void."
+  },
+  {
+    "id": "wither",
+    "name": "Wither",
+    "category": "Boss",
+    "rarity": "Boss",
+    "health": 300,
+    "hearts": 150,
+    "damage": {
+      "easy": 8,
+      "normal": 12,
+      "hard": 18
+    },
+    "armor": 4,
+    "xp": 50,
+    "spawn": "Player-constructed using 4 Soul Sand/Soul Soil in a T-shape topped with 3 Wither Skeleton Skulls",
+    "biomes": [
+      "Any Dimension (Nether / Overworld)"
+    ],
+    "behavior": "Hovering three-headed undead calamity that launches explosive skulls, inflicts Wither decay, and activates an arrow-proof armor shield below 50% health.",
+    "drops": [
+      "Nether Star (1)"
+    ],
+    "rareDrop": null,
+    "variants": [
+      {
+        "name": "Wither Armor Shield",
+        "description": "Activates at half health; grants total immunity to projectile arrows and charges into melee range."
+      }
+    ],
+    "image": "/assets/mobs/wither.webp",
+    "imageCredit": "Minecraft Wiki (CC BY-NC-SA 3.0)",
+    "wikiUrl": "https://minecraft.wiki/w/Wither",
+    "mcVersion": "1.21",
+    "description": "A player-summoned three-headed titan of pure decay, firing volatile wither skulls and yielding the Nether Star required for beacons."
+  }
+]

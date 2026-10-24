@@ -1,0 +1,17 @@
+{
+  "name": "DarkWing Studio",
+  "short_name": "DarkWing",
+  "description": "Minecraft, software, and digital art by DarkWing Studio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f2f0e9",
+  "theme_color": "#f2f0e9",
+  "icons": [
+    {
+      "src": "/assets/ProfilePIC.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}

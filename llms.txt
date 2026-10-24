@@ -6,9 +6,14 @@
 ## Core Pages
 - [Home](https://darkwingstudio.netlify.app/): Official DarkWing Studio homepage.
 - [About](https://darkwingstudio.netlify.app/about/): About DarkWing Studio and its areas of work.
-- [Minecraft](https://darkwingstudio.netlify.app/minecraft/): Minecraft creations, guides, facts, and updates.
+- [Minecraft](https://darkwingstudio.netlify.app/minecraft/): Minecraft creations, guides, and interactive mob encyclopedia.
+- [Minecraft Mob Database](https://darkwingstudio.netlify.app/minecraft/mobs/): Verified Minecraft 1.21 mob database with combat stats, health values, damage scaling, drops, and variants.
 - [Projects](https://darkwingstudio.netlify.app/projects/): Software, web projects, and open-source work.
 - [Art](https://darkwingstudio.netlify.app/art/): Digital art, wallpapers, profile pictures, and visual projects.
+- [Art Assets](https://darkwingstudio.netlify.app/art/assets/): Downloadable 4K wallpapers and PFPs.
+
+## Brand Assets
+- [Social Graph Image](https://darkwingstudio.netlify.app/assets/og-image.png): Official 1672x941 social sharing preview card.
 
 ## Official Channels
 - [GitHub](https://github.com/DarkWingStudio): Open-source projects and code.
